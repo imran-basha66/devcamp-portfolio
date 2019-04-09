@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/imran-basha66/imranbasha_view_tool
+  revision: 1acc8450d6988be6ffe00dca0756045d84a9dde9
+  specs:
+    imranbasha_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,6 +222,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.6, >= 4.6.2)
   friendly_id (~> 5.1.0)
+  imranbasha_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
