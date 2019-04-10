@@ -16,16 +16,12 @@
 
   <body>
     <div class="text-center cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
 
       <%= render "shared/application_nav" %>
 
-      <%= login_helper %>
-
       <%= yield %>
 
-      <%= copyright_generator %>
+      <%= render "shared/application_footer" %>
 
       <%= source_helper("application") %>
     </div>
