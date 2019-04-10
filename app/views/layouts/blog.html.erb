@@ -22,18 +22,15 @@
       <!-- Start of blog header -->
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-          <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.</p>
-          <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+          <h1 class="display-4 font-italic">My Blog</h1>
+          <p class="lead my-3">An example blog template built with bootstrap</p>
+          <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
         </div>
       </div>
+      
       <!-- End of blog header -->
 
-      <!-- Start of container and row element -->
       <div class="row">
-      <!-- End of container and row element -->
-
-        <%= login_helper %>
 
         <%= yield %>
 
@@ -71,6 +68,7 @@
             </ol>
           </div>
         </aside>
+      </div>
         <!-- End of sidebar -->
 
         <!-- Start of footer -->
@@ -82,10 +80,7 @@
         </footer>
         <!-- End of footer -->
 
-        <%= render "shared/nav", location: 'bottom' %>
-
         <%= source_helper("blog") %>
-      </div>
     </div>
   </body>
 </html>
