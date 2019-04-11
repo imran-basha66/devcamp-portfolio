@@ -58,9 +58,8 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 
 gem 'bootstrap', '~> 4.3.1'
-
 gem 'jquery-rails'
-
 gem 'imranbasha_view_tool', '~> 0.1.0'
-
 gem 'petergate', '~> 2.0', '>= 2.0.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
